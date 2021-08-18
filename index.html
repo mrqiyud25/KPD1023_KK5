@@ -1,0 +1,215 @@
+<html>
+    <head>
+        <title>BERITA HARIAN</title>
+        <style>
+            * {
+                box-sizing: content-box;
+                margin: 0;
+            }
+            .header {
+                border-bottom: 2px solid grey;
+                overflow: hidden;
+            }
+            .header img {
+                width: 90px;
+                padding: 30px;
+                float: left;
+            }
+            .header font {
+                float: left;
+                padding: 30px;
+                font-size: 10mm;
+                font-weight: bold;
+            }
+            .header .shortcut {
+                margin-right: 30px;
+            }
+            .header .shortcut img {
+                float: right;
+                border-radius: 50%;
+                width: 20px;
+                padding: 5px;
+                margin-top: 50px;
+            }
+
+            .menu {
+                overflow: hidden;
+                background-color: black;
+            }
+            .menu ul {
+                list-style-type: none;
+                padding: 0;
+                margin: 0;
+            }
+            .menu li {
+                float: left;
+                padding: 15px;
+                margin-top: 0;
+            }
+            .menu a {
+                text-decoration: none;
+                color: white;
+                display: block;
+                text-align: center;
+            }
+            .menu li:hover {
+                background-color: antiquewhite;
+            }
+            .menu a:hover {
+                color: black;
+                font-weight: bold;
+            }
+
+            .menu form {
+                float: right;
+                margin: 5px;
+            }
+            input {
+                border-radius: 5px;
+                height: 30px;
+                text-align: center;
+            }
+            input:hover {
+                background-color: lightcoral;
+            }
+
+            .content {
+                margin-top: 20px;
+                width: 20%;
+                float: left;
+            }
+            .content img {
+                width: 50px;
+                margin-left: 5%;
+            }
+            .content a {
+                text-decoration: none;
+                border-bottom: 2px solid black;
+                display: block;
+            }
+
+            .table {
+                margin-top: 2px;
+                padding-top: 100px;
+                padding-bottom: 80px;
+                background-color: grey;
+                float: right;
+                width: 80%;
+            }
+
+            table {
+                background-color: white;
+                border: 3px solid lightgray;
+                text-align: center;
+            }
+            .emas {
+                background-color: gold;
+            }
+            .perak {
+                background-color: silver;
+            }
+            .gangsa {
+                background-color: brown;
+            }
+            .jumlah {
+                background-color: lightgreen;
+            }
+
+            .kaki {
+                width: 100%;
+                text-align: center;
+                border: solid lightgray;
+                background-color: black;
+                color: white;
+                overflow: hidden;
+                padding: 10px;
+            }
+        </style>
+    </head>
+
+    <!--HEADER-->
+    <div class="header">
+        <img src="images/logo.png">
+        <font>BERITA HARIAN</font>
+        <div class="shortcut">
+            <img src="images/youtube.png">
+            <img src="images/instagram.png">
+            <img src="images/twitter.png">
+            <img src="images/facebook.png">
+        </div>
+    </div>
+
+    <!--MENU-->
+    <div class="menu">
+        <ul>
+            <li><a href="#">BERITA</a></li>
+            <li><a href="#">SUKAN</a></li>
+            <li><a href="#">DUNIA</a></li>
+            <li><a href="#">HIBURAN</a></li>
+        </ul>
+        <div class="search">
+            <form action="">
+                <input type="text" placeholder="Masuk Kata Kunci">
+                <input type="submit" value="Cari">
+            </form>
+        </div>
+    </div>
+    <!--CONTENT-->
+    <div class="content">
+        <a href="#"><img src="images/football.png">Bola Sepak</a><br>
+        <a href="#"><img src="images/rugby.png">Ragbi</a><br>
+        <a href="#"><img src="images/netball.png">Bola Jaring</a><br>
+        <a href="#"><img src="images/swimming.png">Berenang</a><br>
+    </div>
+    <div class="table">
+        <marquee behavior="" direction="left">
+            <table>
+                <tr>
+                    <th>Bil</th>
+                    <th>Negara</th>
+                    <th class="emas">Emas</th>
+                    <th class="perak">Perak</th>
+                    <th class="gangsa">Gangsa</th>
+                    <th class="jumlah">Jumlah</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>China</td>
+                    <td class="emas">27</td>
+                    <td class="perak">45</td>
+                    <td class="gangsa">16</td>
+                    <th class="jumlah">88</th>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Japan</td>
+                    <td class="emas">22</td>
+                    <td class="perak">12</td>
+                    <td class="gangsa">19</td>
+                    <th class="jumlah">53</th>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>America</td>
+                    <td class="emas">20</td>
+                    <td class="perak">56</td>
+                    <td class="gangsa">2</td>
+                    <th class="jumlah">78</th>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>ROC</td>
+                    <td class="emas">15</td>
+                    <td class="perak">24</td>
+                    <td class="gangsa">32</td>
+                    <th class="jumlah">61</th>
+                </tr>
+            </table>
+        </marquee>
+    </div>
+
+    <!--FOOTER-->
+    <div class="kaki">
+        <font>Copyright &copy; Berita Harian, 2021</font>
+    </div>
+</html>
